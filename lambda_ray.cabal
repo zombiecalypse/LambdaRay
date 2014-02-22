@@ -1,0 +1,26 @@
+name: LambdaRay
+version: 0.0.0
+cabal-version: -any
+build-type: Simple
+license: PublicDomain
+license-file: ""
+copyright:
+maintainer: Aaron Karper
+stability: None whatsoever
+homepage:
+package-url:
+bug-reports:
+synopsis: Implementation of the while language
+description: Implements the very basic programming language WHILE.
+				It is useful for computability introductions.
+build-depends:
+    base,
+    containers,
+    JuicyPixels,
+    hmatrix,
+    parallel
+
+executable: test
+main-is: example.hs
+buildable: True
+hs-source-dirs: src, src/LambdaRay
