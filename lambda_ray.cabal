@@ -18,9 +18,12 @@ build-depends:
     containers,
     JuicyPixels,
     hmatrix,
-    parallel
+    parallel,
+    random,
+    array
 
 executable: test
 main-is: example.hs
 buildable: True
+extensions: MultiParamTypeClasses
 hs-source-dirs: src, src/LambdaRay

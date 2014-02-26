@@ -1,8 +1,6 @@
 import Numeric.LinearAlgebra
-import LambdaRay.Helper
 import LambdaRay.Main
+import LambdaRay.Scene
 
 main = do
-  let a = (3><3) ([1..] :: [Double])
-  let b = (3><3) ([3..] :: [Double])
-  print $ (a <> b)
+  mainFunc emptyScene
