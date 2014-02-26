@@ -25,5 +25,7 @@ build-depends:
 executable: test
 main-is: example.hs
 buildable: True
+includes: math.h
 extensions: MultiParamTypeClasses
+ghc-options: -O3 -threaded
 hs-source-dirs: src, src/LambdaRay
