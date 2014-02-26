@@ -10,9 +10,11 @@ stability: None whatsoever
 homepage:
 package-url:
 bug-reports:
-synopsis: Implementation of the while language
-description: Implements the very basic programming language WHILE.
-				It is useful for computability introductions.
+synopsis: A ray tracer written in Haskell
+description: A fairly complex ray tracer written in Haskell. A semester
+      project in the university of Bern in the rendering algorithms
+      class. If you steal this, they will know. Nobody except me
+      is crazy enough to code this in Haskell.
 build-depends:
     base,
     containers,
