@@ -1,4 +1,4 @@
 LambdaRay
 =========
 
-A ray traceri haskell
+A ray tracer written in haskell
